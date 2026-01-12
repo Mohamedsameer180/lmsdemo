@@ -1,0 +1,31 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.policy-info {
+  background: var(--card-bg);
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.policy-info h3 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.policy-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.policy-info li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.policy-info li:last-child {
+  border-bottom: none;
+}
